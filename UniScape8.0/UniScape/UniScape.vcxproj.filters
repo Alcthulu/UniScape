@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Model">
+      <UniqueIdentifier>{821064eb-50c0-49c7-bf8c-729096147b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Model">
+      <UniqueIdentifier>{d2e01615-ad0a-432c-9fe9-cddd9082cb70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Controller">
+      <UniqueIdentifier>{fd1ccd5c-7121-4198-a934-f944ca2efaa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\View">
+      <UniqueIdentifier>{4011b411-5629-40e8-8848-15a961c0ba58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Controller">
+      <UniqueIdentifier>{515a8a58-442b-472f-a01d-b7f393c12cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\View">
+      <UniqueIdentifier>{aadab720-f196-4e54-8ad5-9dd453f21d00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="Container.cpp">
+      <Filter>Archivos de recursos\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>Archivos de recursos\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Archivos de recursos\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Archivos de recursos\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Archivos de recursos\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Archivos de recursos\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Archivos de recursos\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Archivos de recursos\View</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>Archivos de recursos\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="TextConf.cpp">
+      <Filter>Archivos de recursos\View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Door.h">
+      <Filter>Archivos de encabezado\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Archivos de encabezado\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Archivos de encabezado\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Archivos de encabezado\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Archivos de encabezado\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>Archivos de encabezado\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Archivos de encabezado\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Archivos de encabezado\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>Archivos de encabezado\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="TextConf.h">
+      <Filter>Archivos de encabezado\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Sounds.h">
+      <Filter>Archivos de encabezado\View</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
